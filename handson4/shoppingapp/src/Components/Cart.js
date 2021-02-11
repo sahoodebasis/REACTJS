@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import '../styles.css';
 class Cart extends Component {
+   
     
     render() {
        return (
@@ -25,24 +26,36 @@ class Cart extends Component {
         }
     }
     export default Cart;
+     
+    // constructor(props){
+    //     super(props);
+    // }
 //   myfunc =(props) =>{
-//     props.item.map((item)=> {
+//       //myfunc =() =>{ :this will also work instead of 33 line
+//     //   alert("asdasdsa");
+//    // console.log(item);
+//     return(
+//     this.props.item.map((x)=> {
 //                 return (
+                   
 //                      <tr>
-//                          <td>{item.itemname} </td>
-//                          <td>{item.price} </td>
+//                          <td>{x.itemname} </td>
+//                          <td>{x.price} </td>
 //                      </tr>
-            
               
 //                  )
 //              })
-//  }
+//             );
+//             }
 
 //  render(){
 //      return(
 //          <div>
 //               <table className="table">
-//                 {this.myfunc}
+//               <tbody>
+//                 {this.myfunc()}
+//                 {/* {this.myfunc(this.props)} */}
+//             </tbody>
 //             </table>
 //             </div>
 //      )
